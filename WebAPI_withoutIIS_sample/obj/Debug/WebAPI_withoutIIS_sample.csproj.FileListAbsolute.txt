@@ -1,0 +1,14 @@
+D:\VS_Project\WebAPI_withoutIIS_sample\WebAPI_withoutIIS_sample\bin\Debug\WebAPI_withoutIIS_sample.exe.config
+D:\VS_Project\WebAPI_withoutIIS_sample\WebAPI_withoutIIS_sample\bin\Debug\WebAPI_withoutIIS_sample.exe
+D:\VS_Project\WebAPI_withoutIIS_sample\WebAPI_withoutIIS_sample\bin\Debug\WebAPI_withoutIIS_sample.pdb
+D:\VS_Project\WebAPI_withoutIIS_sample\WebAPI_withoutIIS_sample\bin\Debug\Newtonsoft.Json.dll
+D:\VS_Project\WebAPI_withoutIIS_sample\WebAPI_withoutIIS_sample\bin\Debug\System.Net.Http.Formatting.dll
+D:\VS_Project\WebAPI_withoutIIS_sample\WebAPI_withoutIIS_sample\bin\Debug\System.Web.Http.dll
+D:\VS_Project\WebAPI_withoutIIS_sample\WebAPI_withoutIIS_sample\bin\Debug\System.Web.Http.SelfHost.dll
+D:\VS_Project\WebAPI_withoutIIS_sample\WebAPI_withoutIIS_sample\bin\Debug\Newtonsoft.Json.xml
+D:\VS_Project\WebAPI_withoutIIS_sample\WebAPI_withoutIIS_sample\bin\Debug\System.Net.Http.Formatting.xml
+D:\VS_Project\WebAPI_withoutIIS_sample\WebAPI_withoutIIS_sample\bin\Debug\System.Web.Http.xml
+D:\VS_Project\WebAPI_withoutIIS_sample\WebAPI_withoutIIS_sample\bin\Debug\System.Web.Http.SelfHost.xml
+D:\VS_Project\WebAPI_withoutIIS_sample\WebAPI_withoutIIS_sample\obj\Debug\WebAPI_withoutIIS_sample.csprojResolveAssemblyReference.cache
+D:\VS_Project\WebAPI_withoutIIS_sample\WebAPI_withoutIIS_sample\obj\Debug\WebAPI_withoutIIS_sample.exe
+D:\VS_Project\WebAPI_withoutIIS_sample\WebAPI_withoutIIS_sample\obj\Debug\WebAPI_withoutIIS_sample.pdb

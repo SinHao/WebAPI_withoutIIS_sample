@@ -1,0 +1,53 @@
+﻿<div>
+    <input type="button" value="Get" onclick="Get()"/>
+    <ul id="get"></ul>
+</div>
+
+<div>
+    <input type="text" id="post1value" />
+    <input type="button" value="Post1" onclick="Post1()" />
+    <ul id="post1"></ul>
+</div>
+
+<div>
+    <input type="text" id="post2value1" />
+    <input type="text" id="post2value2" />
+    <input type="button" value="Post2" onclick="Post2()" />
+    <ul id="post2"></ul>
+</div>
+
+<script src='http://10.199.208.249:5001/Scripts/jquery-1.11.3.min.js'></script>
+<script>
+    function Get() {
+        $.ajax({
+            type: 'get',
+            url: 'http://localhost:5050/Sample/Get/',
+            success: function (message) {
+                $("#get").append("<li>" + message + "</li>");
+            }
+        });
+    }
+
+    function Post1() {
+        $.ajax({
+            type: 'post',
+            url: 'http://localhost:5050/Sample/Post1/',
+            data: { "": $("#post1value").val() },
+            success: function (message) {
+                $("#post1").append("<li>" + message + "</li>");
+            }
+        });
+    }
+
+    function Post2() {
+        $.ajax({
+            type: 'post',
+            url: 'http://localhost:5050/Sample/Post2/',
+            data: { value1: $("#post2value1").val(), value2: $("#post2value2").val() },
+            success: function (message) {
+                $("#post2").append("<li>" + message.value1 + "</li>");
+                $("#post2").append("<li>" + message.value2 + "</li>");
+            }
+        });
+    }
+</script>
